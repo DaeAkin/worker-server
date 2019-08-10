@@ -16,6 +16,8 @@ spring:
     multipart:
       max-file-size: 20MB
       max-request-size: 20MB
+  main:
+    web-application-type: none # 웹 어플리케이션이면 이 프로퍼티를 써줘야한다.
   thymeleaf:
     cache: false
   devtools:
