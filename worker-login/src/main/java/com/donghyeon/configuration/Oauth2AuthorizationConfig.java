@@ -22,15 +22,16 @@ import javax.sql.DataSource;
 @AllArgsConstructor
 @EnableAuthorizationServer
 public class Oauth2AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
-    @Qualifier("userService")
+    @Autowired
     private UserDetailsService userService;
 
     @Autowired
     private DataSource dataSource;
 
-    @Qualifier("userPasswordEncoder")
+    @Autowired
     private PasswordEncoder userPasswordEncoder;
 
+    @Autowired
     private AuthenticationManager authenticationManagerBean;
 
     public static final String CLIENT_ID = "worker_client_id";
@@ -60,9 +61,9 @@ public class Oauth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 
-        System.out.println("dataSource : " + dataSource);
         clients
-                .jdbc(dataSource)
+                .inMemory()
+//                .jdbc(dataSource)
                 .withClient(CLIENT_ID) //sha256(WELL_BUY_USER_CLIENT_ID) + 0
                 .secret(userPasswordEncoder.encode(CLIENT_SECRET)) //sha256(WELL_BUY_USER_CLIENT_SECRET) + 0
                 .accessTokenValiditySeconds(1*60*60*12)

@@ -5,6 +5,7 @@ import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +18,6 @@ import java.util.Collection;
 @Getter
 @ToString(callSuper = true)
 @AllArgsConstructor
-@NoArgsConstructor(access = AccessLevel.PROTECTED) // 접근 레벨
 @Entity
 public class User extends BaseAuditingEntity implements UserDetails {
 
@@ -32,6 +32,23 @@ public class User extends BaseAuditingEntity implements UserDetails {
 
     private boolean enable;
 
+    public User(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
+    public User() {
+
+    }
+
+    public void initialize(PasswordEncoder encoder){
+        enable = true;
+        encodePassword(encoder);
+    }
+
+    private void encodePassword(PasswordEncoder encoder){
+        this.password = encoder.encode(this.password);
+    }
 
     /** UserDetails 구현부 */
     @Override
@@ -57,17 +74,17 @@ public class User extends BaseAuditingEntity implements UserDetails {
     // 미사용 UserDetails
     @Override
     public boolean isAccountNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
+        return true;
     }
 
 }
