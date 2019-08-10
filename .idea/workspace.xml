@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a006623e-5e72-4173-a6f0-5b261a0af01a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/out/production/classes/com/donghyeon/user/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/out/production/classes/com/donghyeon/user/dto/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/out/production/classes/com/donghyeon/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/out/production/classes/com/donghyeon/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/WorkerLoginApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/WorkerLoginApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/configuration/Oauth2AuthorizationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/configuration/Oauth2AuthorizationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/WorkerLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/WorkerLoginApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2AuthorizationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a006623e-5e72-4173-a6f0-5b261a0af01a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2AuthorizationConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+                <state relative-caret-position="228">
+                  <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
                   <folding>
                     <element signature="e#1968#1969#0" expanded="true" />
                     <element signature="e#2021#2022#0" expanded="true" />
@@ -109,8 +92,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/SecurityConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                <state relative-caret-position="702">
+                  <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -118,8 +101,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2ResourceConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+                <state relative-caret-position="468">
+                  <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -399,7 +382,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565447059319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565447919634" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -473,7 +456,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -677,31 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/MethodSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2ResourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -715,10 +676,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2ResourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/configuration/Oauth2AuthorizationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
             <element signature="e#1968#1969#0" expanded="true" />
             <element signature="e#2021#2022#0" expanded="true" />
