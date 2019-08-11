@@ -1,4 +1,5 @@
 dependencies{
     implementation group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.3.3.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
 }

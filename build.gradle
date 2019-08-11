@@ -58,7 +58,6 @@ subprojects {
         implementation('org.springframework.boot:spring-boot-starter-web')
 
         runtimeOnly('org.springframework.boot:spring-boot-devtools')
-        implementation('org.springframework.boot:spring-boot-starter-security')
         implementation 'org.springframework.boot:spring-boot-starter-mail'
         implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
         // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
@@ -85,9 +84,16 @@ dependencyManagement {
     }
 }
 
+project(':worker-core') {
+    dependencies {
+        implementation('org.springframework.boot:spring-boot-starter-security')
+    }
+}
+
 project(':worker-login'){
     dependencies{
         compile project(':worker-core')
+        implementation('org.springframework.boot:spring-boot-starter-security')
     }
 }
 
