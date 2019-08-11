@@ -8,12 +8,14 @@ spring:
 --- # 구분자로 나누면 다른 파일에서 불러온 것처럼 쓸수 있다.
 #resource-path: ${user.home}${file.separator}wellbuy-resource${file.separator}
 server:
-  port: 28080
+  port: 28081
   servlet:
     session:
       timeout: 86400s
 eureka:
   client:
+    healthcheck:
+      enabled: true
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:

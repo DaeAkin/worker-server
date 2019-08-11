@@ -62,6 +62,8 @@ subprojects {
         implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
         // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
         compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-server', version: '2.0.4.RELEASE'
+        // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul
+        compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-zuul', version: '2.0.4.RELEASE'
 
         compileOnly 'org.projectlombok:lombok'
         runtimeOnly 'mysql:mysql-connector-java'
