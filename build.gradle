@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.1.7.RELEASE'
+        springBootVersion = '2.0.5.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -12,7 +12,7 @@ buildscript {
 
 
 plugins {
-    id 'org.springframework.boot' version '2.1.7.RELEASE'
+    id 'org.springframework.boot' version '2.0.5.RELEASE'
     id 'java'
 }
 
@@ -54,12 +54,16 @@ subprojects {
     sourceCompatibility = 1.8
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'org.springframework.boot:spring-boot-starter-jdbc'
         implementation('org.springframework.boot:spring-boot-starter-web')
+
         runtimeOnly('org.springframework.boot:spring-boot-devtools')
         implementation('org.springframework.boot:spring-boot-starter-security')
-        implementation 'org.springframework.boot:spring-boot-starter-jdbc'
         implementation 'org.springframework.boot:spring-boot-starter-mail'
         implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+        // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server
+        compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-server', version: '2.0.4.RELEASE'
+
         compileOnly 'org.projectlombok:lombok'
         runtimeOnly 'mysql:mysql-connector-java'
         annotationProcessor 'org.projectlombok:lombok'
@@ -85,4 +89,10 @@ project(':worker-login'){
     dependencies{
         compile project(':worker-core')
     }
+}
+
+project(':worker-discovery'){
+//    dependencies{
+//        compile project(':worker-core')
+//    }
 }

@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/worker-core" />
+            <option value="$PROJECT_DIR$/worker-discovery" />
             <option value="$PROJECT_DIR$/worker-login" />
           </set>
         </option>

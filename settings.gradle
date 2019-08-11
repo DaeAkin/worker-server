@@ -3,4 +3,5 @@ rootProject.name = 'worker-server'
 
 include 'worker-login'
 include 'worker-core'
+include 'worker-discovery'
 
