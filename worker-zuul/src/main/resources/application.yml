@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: zuul-server
+  profiles:
+    active: local # 기본환경 선택 지금은 local로 선택함
+
+
+#로컬 프로파일
+--- # 구분자로 나누면 다른 파일에서 불러온 것처럼 쓸수 있다.
+#resource-path: ${user.home}${file.separator}wellbuy-resource${file.separator}
+server:
+  port: 8762
+  servlet:
+    session:
+      timeout: 86400s
+  thymeleaf:
+    cache: false
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+eureka:
+  instance:
+    prefer-ip-address: true #서비스간 통신 시 hostname 보다 ip 를 우선 사용 함
+  client:
+    register-with-eureka: true #자기 자신은 서비스로 등록하지 않는다.
+    fetch-registry: true #마이크로서비스인스턴스 목록을 로컬에 캐시할 것인지
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+
+
+#운영 프로파일 배포시 수정할것 19/8/11
+---
+server:
+  tomcat:
+    remote-ip-header: X-Forwarded-For
+    protocol-header: X-Forwarded-Proto
+  use-forward-headers: true
+  servlet:
+    session:
+      timeout: 43200s
+  port: 18081           #포트 (배포시 변경)
+resource-path: ${user.home}${file.separator}wellbuy${file.separator}resource${file.separator} #리소스 디렉토리 위치
+logging:
+  file: log_1/user.log   #로그파일 위치 (배포시 변경)
+  level:
+    org:
+      hibernate: info
+      springframework:
+        security: info
+
+spring:
+  profiles: production
+

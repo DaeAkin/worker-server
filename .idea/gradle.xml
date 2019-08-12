@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/worker-core" />
             <option value="$PROJECT_DIR$/worker-discovery" />
             <option value="$PROJECT_DIR$/worker-login" />
+            <option value="$PROJECT_DIR$/worker-zuul" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
