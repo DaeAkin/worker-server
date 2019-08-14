@@ -86,6 +86,13 @@ dependencyManagement {
     }
 }
 
+project(':worker-configServer') {
+    dependencies {
+
+    }
+}
+
+
 project(':worker-core') {
     dependencies {
         implementation('org.springframework.boot:spring-boot-starter-security')
