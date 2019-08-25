@@ -42,6 +42,8 @@ allprojects {
     repositories {
         mavenCentral()
         maven { url 'https://jitpack.io' }
+
+
     }
 }
 
@@ -51,12 +53,13 @@ subprojects {
     apply plugin: 'org.springframework.boot'
     apply plugin: 'io.spring.dependency-management'
 
+
     sourceCompatibility = 1.8
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'org.springframework.boot:spring-boot-starter-jdbc'
         implementation('org.springframework.boot:spring-boot-starter-web')
-        runtime group: 'com.netflix.ribbon', name: 'ribbon', version: '2.7.10'
+//        runtime group: 'com.netflix.ribbon', name: 'ribbon', version: '2.7.10'
         runtimeOnly('org.springframework.boot:spring-boot-devtools')
         implementation 'org.springframework.boot:spring-boot-starter-mail'
         implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
@@ -79,7 +82,12 @@ subprojects {
         //configSerevr
         compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '2.0.4.RELEASE'
         compile group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '2.0.4.RELEASE'
-        implementation('org.springframework.cloud:spring-cloud-starter-parent')
+//        compile('org.springframework.cloud:spring-cloud-starter-parent')
+//        implementation('org.springframework.cloud:spring-cloud-starter-parent')
+        // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-parent
+        // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '2.0.5.RELEASE'
+
         testCompile('org.springframework.boot:spring-boot-starter-test')
         //
 
@@ -108,13 +116,14 @@ project(':worker-configServer') {
 project(':worker-core') {
     dependencies {
         implementation('org.springframework.boot:spring-boot-starter-security')
+
+
     }
 }
 
 project(':worker-login'){
     dependencies{
         compile project(':worker-core')
-        implementation('org.springframework.boot:spring-boot-starter-security')
     }
 }
 

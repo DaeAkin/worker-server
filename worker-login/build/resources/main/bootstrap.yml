@@ -1,0 +1,9 @@
+#spring:
+#  application:
+#    name: worker-login
+#  profiles:
+#    active:
+#      default
+#  cloud:
+#    config:
+#      uri: http://localhost:28888

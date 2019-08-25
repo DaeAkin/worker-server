@@ -66,7 +66,7 @@ public class Oauth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
 //                .jdbc(dataSource)
                 .withClient(CLIENT_ID) //sha256(WELL_BUY_USER_CLIENT_ID) + 0
                 .secret(userPasswordEncoder.encode(CLIENT_SECRET)) //sha256(WELL_BUY_USER_CLIENT_SECRET) + 0
-                .accessTokenValiditySeconds(1*60*60*12)
+                .accessTokenValiditySeconds(-1)
                 .scopes("USER")
                 .authorizedGrantTypes("password");
     }
