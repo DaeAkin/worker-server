@@ -209,3 +209,9 @@ worker-core/build/libs/worker-core-0.0.1.jar
 worker-discovery/build/libs/worker-discovery-0.0.1.jar
 worker-discovery/build/tmp/bootJar/MANIFEST.MF
 worker-login/build/libs/worker-login-0.0.1.jar
+.gradle/4.10/fileContent/fileContent.lock
+.gradle/4.10/fileHashes/resourceHashesCache.bin
+.gradle/4.10/javaCompile/classAnalysis.bin
+.gradle/4.10/javaCompile/jarAnalysis.bin
+.gradle/4.10/javaCompile/javaCompile.lock
+.gradle/4.10/javaCompile/taskHistory.bin
