@@ -28,6 +28,13 @@ eureka:
     fetch-registry: true #마이크로서비스인스턴스 목록을 로컬에 캐시할 것인지
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
 
 
 

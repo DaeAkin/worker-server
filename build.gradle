@@ -68,9 +68,13 @@ subprojects {
         // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul
         compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-zuul', version: '2.0.4.RELEASE'
 
-        compileOnly 'org.projectlombok:lombok'
+
         runtimeOnly 'mysql:mysql-connector-java'
-        annotationProcessor 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok:1.18.8'
+        compileOnly 'org.projectlombok:lombok:1.18.8'
+        runtimeOnly 'org.projectlombok:lombok:1.18.8'
+        implementation 'org.projectlombok:lombok:1.18.8'
+
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
         //common
         implementation 'org.apache.commons:commons-lang3:3.8.1'
@@ -89,7 +93,11 @@ subprojects {
         compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '2.0.5.RELEASE'
 
         testCompile('org.springframework.boot:spring-boot-starter-test')
-        //
+
+        //springfox-swagger2
+        compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+        //springfox-swagger-ui
+        compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
 
 
     }

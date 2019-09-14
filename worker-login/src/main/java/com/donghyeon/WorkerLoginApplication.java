@@ -13,7 +13,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 
 @SpringBootApplication
-//@EnableDiscoveryClient//eureka, consul, zookeeper의 implements를 모두 포함. @EnableEurekaClient는 only works for eureka.
+@EnableDiscoveryClient//eureka, consul, zookeeper의 implements를 모두 포함. @EnableEurekaClient는 only works for eureka.
 @EnableJpaAuditing
 @EnableJpaRepositories(repositoryFactoryBeanClass = org.springframework.data.jpa.datatables.repository.DataTablesRepositoryFactoryBean.class)
 //@RibbonClient(name="worker-login", configuration = RibbonAutoConfiguration.class)
