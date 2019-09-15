@@ -1,0 +1,147 @@
+spring:
+  profiles:
+    default: local # 기본환경 선택 지금은 local로 선택함
+
+#로컬 프로파일
+--- # 구분자로 나누면 다른 파일에서 불러온 것처럼 쓸수 있다.
+resource-path: ${user.home}${file.separator}wellbuy-resource${file.separator}
+server:
+  port: 18081
+  servlet:
+    session:
+      timeout: 86400s
+spring:
+  profiles: local
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  thymeleaf:
+    cache: false
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wellbuy?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: wbyadmin
+    password: wby100
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    mongodb:
+      uri: mongodb://wbyadmin:wby100@localhost:27017/wellbuy?authSource=admin&authMechanism=SCRAM-SHA-1
+
+
+
+logging:
+  level:
+    kr:
+      co:
+        well_buy: debug
+    org:
+      hibernate: info
+      springframework:
+        security: info
+        core:
+          MongoTemplate: debug
+          repository:
+            Query: debug
+
+
+#개발서버 프로파일
+---
+server:
+  tomcat:
+    remote-ip-header: X-Forwarded-For
+    protocol-header: X-Forwarded-Proto
+  use-forward-headers: true
+  servlet:
+    session:
+      timeout: 43200s
+  port: 18081           #포트 (배포시 변경)
+resource-path: ${user.home}${file.separator}wellbuy-resource${file.separator} #리소스 디렉토리 위치
+logging:
+  file: log_1/user.log   #로그파일 위치 (배포시 변경)
+  level:
+    kr:
+      co:
+        well_buy: debug
+    org:
+      hibernate: info
+      springframework:
+        security: info
+
+spring:
+  profiles: dev
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wellbuy?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: wbyadmin
+    password: wby100
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    mongodb:
+      uri: mongodb://wbyadmin:wby100@localhost:27017/wellbuy?authSource=admin&authMechanism=SCRAM-SHA-1
+
+#운영 프로파일
+---
+server:
+  tomcat:
+    remote-ip-header: X-Forwarded-For
+    protocol-header: X-Forwarded-Proto
+  use-forward-headers: true
+  servlet:
+    session:
+      timeout: 43200s
+  port: 18081           #포트 (배포시 변경)
+resource-path: ${user.home}${file.separator}wellbuy${file.separator}resource${file.separator} #리소스 디렉토리 위치
+logging:
+  file: log_1/user.log   #로그파일 위치 (배포시 변경)
+  level:
+    kr:
+      co:
+        well_buy: debug
+    org:
+      hibernate: info
+      springframework:
+        security: info
+
+spring:
+  profiles: production
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wellbuy?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: wbyadmin
+    password: wbyAdminPass100!
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    mongodb:
+      uri: mongodb://wbyadmin:wbyAdminPass100!@localhost:27017/wellbuy

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":worker-discovery:test" external.linked.project.path="$MODULE_DIR$/../../../worker-discovery" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.donghyeon" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../.." rootProjectPath="$MODULE_DIR$/../../.." />
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../../worker-discovery/build/classes/java/test" />
     <exclude-output />
@@ -21,7 +22,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-mail:2.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.22" level="project" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.8" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-zuul:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-javanica:1.5.18" level="project" />

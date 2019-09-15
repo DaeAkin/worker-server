@@ -23,6 +23,6 @@ public class UserController {
 
     }
 
-    @PostMapping("/authNumber")
+//    @PostMapping("/authNumber")
 
 }

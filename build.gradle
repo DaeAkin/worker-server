@@ -59,6 +59,11 @@ subprojects {
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'org.springframework.boot:spring-boot-starter-jdbc'
         implementation('org.springframework.boot:spring-boot-starter-web')
+// https://mvnrepository.com/artifact/org.springframework/spring-webflux
+        compile group: 'org.springframework', name: 'spring-webflux', version: '5.1.9.RELEASE'
+
+        // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+        compile group: 'io.projectreactor', name: 'reactor-core', version: '3.2.11.RELEASE'
 //        runtime group: 'com.netflix.ribbon', name: 'ribbon', version: '2.7.10'
         runtimeOnly('org.springframework.boot:spring-boot-devtools')
         implementation 'org.springframework.boot:spring-boot-starter-mail'
@@ -134,6 +139,13 @@ project(':worker-login'){
         compile project(':worker-core')
     }
 }
+
+project(':worker-geo'){
+    dependencies{
+        compile project(':worker-core')
+    }
+}
+
 
 project(':worker-discovery'){
 }

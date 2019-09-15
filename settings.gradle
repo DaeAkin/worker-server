@@ -6,4 +6,6 @@ include 'worker-core'
 include 'worker-discovery'
 include 'worker-zuul'
 include 'worker-configServer'
+include 'worker-geo'
+include 'worker-geo'
 

@@ -2,65 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b096f3-725c-4376-8677-f52bc52348ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/notifier/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/notifier/sns/AligoProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/notifier/sns/Sms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/notifier/sns/SmsApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/test/java/com/donghyeon/TestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker-core/src/test/java/com/donghyeon/notifier/sns/SmsNotifierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webflux_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/com.donghyeon.worker-server.worker-configServer.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/com.donghyeon.worker-server.worker-configServer.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-core/com.donghyeon.worker-server.worker-core.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-core/com.donghyeon.worker-server.worker-core.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/com.donghyeon.worker-server.worker-discovery.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/com.donghyeon.worker-server.worker-discovery.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo/com.donghyeon.worker-server.worker-geo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo/com.donghyeon.worker-server.worker-geo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo/worker-server.worker-geo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo/worker-server.worker-geo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-geo/worker-server.worker-geo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-login/com.donghyeon.worker-server.worker-login.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-login/com.donghyeon.worker-server.worker-login.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-server.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-server.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/com.donghyeon.worker-server.worker-zuul.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/com.donghyeon.worker-server.worker-zuul.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/WebClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/geo/GeoLocationNearByResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/geo/service/GeoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/geo/service/KakaoGeoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-geo/src/main/java/com/donghyeon/WorkerGeoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-geo/src/main/java/com/donghyeon/controller/GeoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-geo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-geo/src/test/java/com/donghyeon/WorkerGeoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker-geo/src/test/java/com/donghyeon/controller/GeoControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-configServer/worker-server.worker-configServer.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-core/worker-server.worker-core.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-discovery/worker-server.worker-discovery.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-login/worker-server.worker-login.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/worker-zuul/worker-server.worker-zuul.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/BaseAuditingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/BaseAuditingEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/MessageResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/oauth/OauthAccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/oauth/OauthAccessToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/user/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/user/dto/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/oauth/OauthAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/oauth/OauthAccessToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-discovery/build/classes/java/main/com/donghyeon/WorkerDiscoveryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-discovery/build/classes/java/main/com/donghyeon/WorkerDiscoveryApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/WorkerLoginApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/WorkerLoginApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/Oauth2AuthorizationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/Oauth2AuthorizationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/Oauth2ResourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/Oauth2ResourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/build/classes/java/main/com/donghyeon/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/WorkerLoginApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/out/production/classes/com/donghyeon/WorkerLoginApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/WorkerLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/WorkerLoginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/user/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/classes/java/main/com/donghyeon/user/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/reports/tests/test/classes/com.donghyeon.notifier.sns.SmsNotifierTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/reports/tests/test/classes/com.donghyeon.notifier.sns.SmsNotifierTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/reports/tests/test/packages/com.donghyeon.notifier.sns.html" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/reports/tests/test/packages/com.donghyeon.notifier.sns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/test-results/test/TEST-com.donghyeon.notifier.sns.SmsNotifierTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/test-results/test/TEST-com.donghyeon.notifier.sns.SmsNotifierTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-core/src/main/java/com/donghyeon/user/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker-login/src/main/java/com/donghyeon/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/worker-zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,9 +85,76 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/worker-core">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/worker-geo">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-core" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-core" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-core" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-geo" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-geo" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="worker-server" type="f1a62948:ProjectNode" />
+                <item name="worker-geo" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -92,8 +165,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,7 +192,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567935743860" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/worker-core/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/worker-geo/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -127,22 +200,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.donghyeon.controller" />
       <recent name="com.donghyeon.notifier.sns" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/worker-configServer/confsvr" />
-      <recent name="$PROJECT_DIR$/worker-configServer/src/main/resources/config" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.donghyeon" />
+      <recent name="com.donghyeon.configuration" />
+      <recent name="com.donghyeon.geo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worker-geo/src/test/resources" />
+      <recent name="$PROJECT_DIR$/worker-geo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/worker-core/src/main/resources" />
+      <recent name="$PROJECT_DIR$/worker-login/src/main/resources" />
+      <recent name="$PROJECT_DIR$/worker-configServer/src/main/resources/workerlogin" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.donghyeon.configuration" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/worker-core/src/main/resources" />
-      <recent name="$PROJECT_DIR$/worker-login/src/main/resources" />
-      <recent name="$PROJECT_DIR$/worker-configServer/src/main/resources/workerlogin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worker-configServer/confsvr" />
+      <recent name="$PROJECT_DIR$/worker-configServer/src/main/resources/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,13 +235,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SmsNotifierTest.sendAuthNumber">
-    <configuration name="WorkerZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.donghyeon.WorkerZuulApplication" />
-      <module name="com.donghyeon.worker-zuul.main" />
+  <component name="RunManager" selected="Application.WorkerGeoApplication">
+    <configuration name="WorkerGeoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.donghyeon.WorkerGeoApplication" />
+      <module name="worker-server.worker-geo.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.donghyeon.notifier.*" />
+          <option name="PATTERN" value="com.donghyeon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,93 +249,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmsNotifierTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="worker-server [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.donghyeon.notifier.sns.SmsNotifierTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":worker-core:cleanTest" />
-            <option value=":worker-core:test" />
+            <option value="bootRun" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SmsNotifierTest.sendAuthNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="worker-server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.donghyeon.notifier.sns.SmsNotifierTest.sendAuthNumber&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":worker-core:cleanTest" />
-            <option value=":worker-core:test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SnsNotifierTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="worker-server:worker-core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/worker-core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.donghyeon.notifier.sns.SnsNotifierTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":worker-core:cleanTest" />
-            <option value=":worker-core:test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SnsNotifierTest.sendAuthNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="worker-server:worker-geo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/worker-geo" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.donghyeon.notifier.sns.SnsNotifierTest.sendAuthNumber&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":worker-core:cleanTest" />
-            <option value=":worker-core:test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SmsNotifierTest.sendAuthNumber" />
-        <item itemvalue="Gradle.SmsNotifierTest" />
-        <item itemvalue="Gradle.SnsNotifierTest" />
-        <item itemvalue="Gradle.SnsNotifierTest.sendAuthNumber" />
-        <item itemvalue="Application.WorkerZuulApplication" />
+        <item itemvalue="Application.WorkerGeoApplication" />
+        <item itemvalue="Gradle.worker-server:worker-geo [build]" />
+        <item itemvalue="Gradle.worker-server:worker-core [build]" />
+        <item itemvalue="Gradle.worker-server [bootRun]" />
+        <item itemvalue="Gradle.worker-server [build]" />
       </list>
     </recent_temporary>
   </component>
